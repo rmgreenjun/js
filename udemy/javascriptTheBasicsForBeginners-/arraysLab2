@@ -1,0 +1,71 @@
+/*
+Uncaught SyntaxError: Invalid or unexpected token
+/*
+array methods review
+Uncaught SyntaxError: Invalid or unexpected token
+/*
+array methods review
+push[], pop[], shift[], unshift[]
+*/
+
+//practice
+var shoppingList = ['apples', 'pizza', 'chicken', 'mushrooms', 'oranges', 'beef'];
+
+
+undefined
+shoppingList
+["apples", "pizza", "chicken", "mushrooms", "oranges", "beef"]
+//challenge
+undefined
+//insert 'crackers' at the front of the array and 'grapes' at the end of the array
+undefined
+shoppingList.unshift() = 'crackers';
+Uncaught ReferenceError: Invalid left-hand side in assignment(…)
+shoppingList.unshift('crackers');
+7
+shoppingList;
+["crackers", "apples", "pizza", "chicken", "mushrooms", "oranges", "beef"]
+shoppingList.push('grapes');
+8
+shoppingList
+["crackers", "apples", "pizza", "chicken", "mushrooms", "oranges", "beef", "grapes"]
+shoppingList.length;
+8
+shoppingList.push('sriracha', 'popcorn');
+10
+sh
+Uncaught ReferenceError: sh is not defined(…)
+shoppingList.unshift('lemonade', 'orange juice');
+12
+shoppingList.unshift('lemonade', 'orange juice');
+14
+shoppingList.shift();
+"lemonade"
+shoppingList.shift();
+"orange juice"
+shoppingList;
+["lemonade", "orange juice", "crackers", "apples", "pizza", "chicken", "mushrooms", "oranges", "beef", "grapes", "sriracha", "popcorn"]
+shoppingList.shift();
+"lemonade"
+shoppingList.pop();
+"popcorn"
+shoppingList;
+["orange juice", "crackers", "apples", "pizza", "chicken", "mushrooms", "oranges", "beef", "grapes", "sriracha"]
+shoppingList.length;
+10
+//practice
+undefined
+//capture shift and pop methods
+undefined
+var firstItemSarah = shoppingList.shift();
+undefined
+var lastItemPhil = shoppingList.pop();
+undefined
+firstItemSarah;
+"orange juice"
+lastItemPhil;
+"sriracha"
+shoppingList;
+["crackers", "apples", "pizza", "chicken", "mushrooms", "oranges", "beef", "grapes"]
+shoppingList.length;
+8
